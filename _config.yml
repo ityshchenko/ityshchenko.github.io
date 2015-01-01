@@ -1,2 +1,5 @@
 highlighter: pygments
 github: [Repository metadata]
+safe: true
+lsi: false
+source: /home/Tihon/Документы/tihonv.github.io/
