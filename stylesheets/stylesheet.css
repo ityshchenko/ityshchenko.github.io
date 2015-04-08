@@ -52,7 +52,7 @@ body {
   box-sizing: border-box;
   color:#373737;
   background: #212121;
-  font-size: 16px;
+  font-size: 22px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -78,23 +78,23 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 32px;
 }
 
 h4 {
-  font-size: 21px;
+  font-size: 30px;
 }
 
 h5 {
-  font-size: 18px;
+  font-size: 26px;
 }
 
 h6 {
-  font-size: 16px;
+  font-size: 24px;
 }
 
 p {
-  margin: 10px 0 15px 0;
+  margin: 18px 0 22px 0;
 }
 
 footer p {
@@ -139,7 +139,7 @@ img {
   max-width: 739px;
   padding: 5px;
   margin: 10px 0 10px 0;
-  border: 0px solid #ebebeb;
+  border: 0px none #ebebeb;
 
   box-shadow: 0 0 0px #ebebeb;
   -webkit-box-shadow: 0 0 5px #ebebeb;
