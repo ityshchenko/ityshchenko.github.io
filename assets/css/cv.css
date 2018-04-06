@@ -5,9 +5,11 @@ body {
   max-width: 100vw;
 }
 
-h2 { font-size: 1.4em; }
+h2 {
+  font-size: 1.4em;
+}
 
-body > header:first-child {
+body>header:first-child {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -26,14 +28,16 @@ body header:first-child h2, body header:first-child h4 {
   margin-bottom: .1em;
 }
 
-body a { text-decoration: none; }
+body a {
+  text-decoration: none;
+}
 
-body > aside {
+body>aside {
   word-wrap: normal;
   flex: 2;
 }
 
-body > aside ul {
+body>aside ul {
   padding-left: 1em;
   display: flex;
   flex-wrap: wrap;
@@ -44,21 +48,25 @@ main section h3 {
   margin-bottom: .4em;
 }
 
-main ul { padding-left: 1em; }
+main ul {
+  padding-left: 1em;
+}
 
-.skills { margin-top: 1em; }
+.skills {
+  margin-top: 1em;
+}
 
-.skills ul > li {
+.skills ul>li {
   list-style: none;
 }
 
-body > aside li {
+body>aside li {
   width: calc(50% - 1.2em);
   padding-top: .2em;
   padding-right: 1em;
 }
 
-body > main {
+body>main {
   word-wrap: normal;
   flex: 3;
 }
@@ -73,4 +81,11 @@ main h6 {
 
 main h4 {
   margin: .2em 0 .2em;
+}
+
+@media screen {
+  body {
+    margin: 4em auto;
+    max-width: 70vw;
+  }
 }
