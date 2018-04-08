@@ -89,10 +89,15 @@ h2 {
 }
 
 @media screen {
+  body {
+    background: #e0e0e0;
+  }
   main {
+    background: #fff;
     width: calc(100% - 2.5em);
     max-width: 60em;
     margin: 4em auto;
     padding: 2em;
+    box-shadow: 0 0 10px #ccc;
   }
 }
