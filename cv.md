@@ -1,18 +1,18 @@
 ---
-layout: cv
-title: CV
+layout: "cv"
+title: "Ivan Tyshchenko"
 author:
-  fullname: Ivan Tyshchenko
+  fullname: "Ivan Tyshchenko"
   photo:
     link: "/assets/img/profile-photo.jpg"
-  position: Back-end developer
-  email: iv.tihon@gmail.com
+  position: "Back-end developer"
+  email: "iv.tihon@gmail.com"
   github:
     link: ""
-    username: TihonV
+    username: "TihonV"
   stackoverflow:
     link: "https://stackoverflow.com/users/5644331/ivan-tyshchenko"
-    username: Tihon
+    username: "Tihon"
   telegram:
     username: "TihonV"
   phone:
