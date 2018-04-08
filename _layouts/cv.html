@@ -5,26 +5,30 @@
   <link type="text/css" rel="stylesheet" href="/assets/css/cv.css" />
   </head>
   <body>
+    <main>
       <header>
-        <div class="photo">
-          <img height="160" src="{{ page.author.photo.link }}" alt="">
-        </div>
-        <div class="info">
-          <h2>{{ page.author.fullname }}</h2>
-          <h4>{{ page.author.position }}</h4>
-          <ul class="contacts">
-            <li>
-              <a href="mailto:{{ page.author.email }}">
-                <i class="far fa-envelope"></i>
-                {{ page.author.email }}
-              </a>
-            </li>
-            <li>
-              <a href="https://t.me/{{page.author.telegram.username}}">
-                <i class="fab fa-telegram"></i>
-                {{ page.author.telegram.username }}
-              </a>
-            </li>
+        <h1>{{ page.author.fullname }}</h1>
+        <ul class="contacts">
+          <li>
+            <a href="mailto:{{ page.author.email }}">
+              {{ page.author.email }}
+            </a>
+          </li>
+          <li>
+            <a
+              class="phone-link"
+              href="tel:{{ page.author.phone.link }}">
+              {{ page.author.phone.formatted }}
+            </a>
+          </li>
+        </ul>
+        <ul class="social">
+          <li>
+            <a href="https://t.me/{{page.author.telegram.username}}">
+              <i class="fab fa-telegram"></i>
+              {{ page.author.telegram.username }}
+            </a>
+          </li>
             <li>
               <a href="https://github.com/{{page.author.github.username}}">
                 <i class="fab fa-github"></i>
@@ -37,69 +41,55 @@
                 {{ page.author.stackoverflow.username }}
               </a>
             </li>
-            <li>
-              <a href="tel:{{ page.author.phone.link }}">
-                <i class="fas fa-phone-square"></i>
-                {{ page.author.phone.formatted }}
-              </a>
-            </li>
           </ul>
         </div>
       </header>
-      <aside>
-        <h2>SKILL SET</h2>
-        {% for skilltype in page.author.skills %}
-        <section class="skills">
-          <aside>
-            {{ skilltype.name }}
-          </aside>
-          <article>
+      <section class="summary">
+        <h2>Summary</h2>
+        <article>{{ content }}</article>
+      </section>
+      <section class="details">
+        <aside class="skills">
+          <h2>Skill Highlights</h2>
+          {% for skilltype in page.author.skills %}
+          <article class="skill">
+            <h3>{{ skilltype.name }}</h3>
             <ul>
             {% for skill in skilltype.list %}
               <li>{{ skill }}</li>
             {% endfor %}
             </ul>
           </article>
-        </section>
-        {% endfor %}
-      </aside>
-      <main>
-        <section class="about">
-          <article>
-            {{ content }}
-          </article>
-        </section>
-        <section class="expirience">
-          <h2>EXPERIENCE</h2>
-          {% for place in page.author.expirience %}
-          <aside>
-            <h3>{{ place.name }}</h3>
-            <h4>{{ place.title }}</h4>
-          </aside>
-          <article>
-            <h6>{{ place.time }}</h6>
-            <ul>
-              {% for project in place.projects %}
-              <li>
-                {{ project }}
-              </li>
-              {% endfor %}
-            </ul>
-          </article>
           {% endfor %}
-        </section>
-        <section class="education">
-          <h2>EDUCATION</h2>
-          {% for place in page.author.education %}
-          <aside>
-            <h6>{{ place.years }}</h6>
-          </aside>
-          <article>
-            <h4>{{ place.spec }}</h4>
-            <h3>{{ place.name }}</h3>
-          </article>
-          {% endfor %}
-        </section>
-      </main>
+        </aside>
+        <div>
+          <section class="expirience">
+            <h2>Expirience</h2>
+            {% for place in page.author.expirience %}
+            <p>
+              <h3>{{ place.name }}</h3>
+              <h4>{{ place.title }}</h4>
+              <h4>{{ place.time }}</h4>
+              <ul>
+                {% for project in place.projects %}
+                <li>{{ project }}</li>
+                {% endfor %}
+              </ul>
+            </p>
+            {% endfor %}
+          </section>
+          <section class="edu">
+            <h2>Education</h2>
+            {% for place in page.author.education %}
+              <div>
+                <h4>{{ place.years }}</h4>
+                <h4>{{ place.spec }}</h4>
+                <h3>{{ place.name }}</h3>
+              </div>
+            {% endfor %}
+          </section>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

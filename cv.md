@@ -1,5 +1,6 @@
 ---
 layout: cv
+title: CV
 author:
   fullname: Ivan Tyshchenko
   photo:
@@ -27,7 +28,6 @@ author:
         - "HTML"
         - "CSS"
         - "YAML"
-        - "golang"
         - "Bash"
     -
       name: Backend Libraries & Frameworks
@@ -51,54 +51,53 @@ author:
         - "semantic-ui"
         - "express"
     -
-      name: Editors
-      list:
-        - "IDEA"
-        - "atom"
-        - "VSCode"
-        - "vim"
-    -
-      name: VCS
-      list:
-        - "git"
-        - "mercurial"
-    -
       name: Misc & soft-skills
       list:
-        - "I know how use bash, curl, vim and other unix-staff :)"
-        - "I practicing Agile while development"
-        - "I able to work in team"
-        - "Good communication skills"
-        - "I'm expirienced Docker user"
+        - I know how use bash, curl, vim and other unix-staff :)
+        - I practicing Agile while development
+        - I able to work in team
+        - Good communication skills
+        - I'm expirienced Docker user
   expirience:
     -
       name: 'LLC Center of Informational and Analysis Technologies'
       title: 'Middle Web Developer'
       time: 'Aug 2016 - current'
       projects:
-        - "Developing large G2G SPA for analysis and planning Ukrainian budget costs and earning."
-        - "Participant in developing internal REST-service for internal report system."
+        - "Train, manage and provide guidance to junior software
+development staff"
+        - "Maintain the existing applications"
+        - "Cooperate with managers and clients"
+        - "Developed large G2G SPA for Ukrainian budget costs and
+earnings analysis and further planning"
+        - "Developed internal RESTful API for the reporting system"
     -
       title: 'Junior Web Developer'
       time: 'Aug 2015 - Aug 2016'
       projects:
-        - "Writing service for analysis public data for Ukrainian budget system."
-        - "Writing middleware for Asterisk PBX and internal CRM."
-        - "Participant in developing few services for publish data of state budget."
+        - "Wrote service for public data analysis for the Ukrainian
+budget system"
+        - "Created a corporate blog based on DjangoCMS"
+        - "Wrote middleware for Asterisk PBX and internal CRM"
+        - "Developed a few services for publishing data of the state budget"
     -
       name: 'LLC Viva Top Group'
       title: 'System Administrator'
       time: 'May 2014 - Aug 2015'
       projects:
         - "Creating scripts for automatic backup"
-        - "Writing internal service for notify clients of status their medical analysis via e-mail."
+        - "Wrote an internal service for notifying clients via e-mail"
   education:
     -
-      years: '2016 - current'
+      years: '2015 - current'
       name: 'National Aviation University'
       spec: 'Information security management'
     -
-      years: '2012-2016'
+      years: '2011-2015'
       name: 'College of Engineering and Management of National Aviation University'
       spec: 'Software development'
 ---
+
+Aspiring Back-end Developer who experienced in thinking outside the box.
+Specialize in finding suitable solutions to fit customer needs.
+Strong in communications, both written and verbal.
