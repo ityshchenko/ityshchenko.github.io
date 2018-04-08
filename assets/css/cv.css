@@ -54,6 +54,11 @@ h2 {
   margin-top: 0;
 }
 
+h3 {
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
 .social a {
   text-decoration: none;
   color: #000;
@@ -80,8 +85,8 @@ h2 {
 .skills {
   flex: 2;
   word-wrap: normal;
-  min-width: 20em;
-  margin-right: 1em;
+  min-width: 18em;
+  margin-right: 2em;
 }
 
 .details {
@@ -110,4 +115,8 @@ h2 {
 @media screen and (max-width: 600px) {
   main { width: calc(100vw - 6em); }
   .details { flex-wrap: wrap; }
+}
+
+@media screen and (min-width: 1200px) {
+  .skills { }
 }
