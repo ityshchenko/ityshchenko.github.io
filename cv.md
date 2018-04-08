@@ -53,11 +53,10 @@ author:
     -
       name: Misc & soft-skills
       list:
-        - I know how use bash, curl, vim and other unix-staff :)
-        - I practicing Agile while development
-        - I able to work in team
-        - Good communication skills
-        - I'm expirienced Docker user
+        - Agile/Scrum methodology
+        - organizational and communication skills
+        - experienced in bash, cURL and vim
+        - experienced Docker user
   expirience:
     -
       name: 'LLC Center of Informational and Analysis Technologies'

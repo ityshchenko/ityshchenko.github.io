@@ -23,6 +23,7 @@ main > header {
 }
 
 main > header ul {
+  padding: 0;
   margin: 0 0 0.5em;
   list-style: none
 }
