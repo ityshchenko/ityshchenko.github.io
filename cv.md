@@ -57,12 +57,11 @@ author:
         - organizational and communication skills
         - experienced in bash, cURL and vim
         - experienced Docker user
-  
   experience:
     -
-      name: 'LLC Center of Informational and Analysis Technologies'
-      title: 'Middle Web Developer'
-      time: 'Aug 2016 - current'
+      name: "LLC Center of Informational and Analysis Technologies"
+      title: "Middle Web Developer"
+      time: "Aug 2016 - current"
       projects:
         - "Train, manage and provide guidance to junior software development staff"
         - "Maintain the existing applications"
@@ -70,8 +69,8 @@ author:
         - "Developed large G2G SPA for Ukrainian budget costs and earnings analysis and further planning"
         - "Developed internal RESTful API for the reporting system"
     -
-      title: 'Junior Web Developer'
-      time: 'Aug 2015 - Aug 2016'
+      title: "Junior Web Developer"
+      time: "Aug 2015 - Aug 2016"
       projects:
         - "Wrote service for public data analysis for the Ukrainian budget system"
         - "Created a corporate blog based on DjangoCMS"
