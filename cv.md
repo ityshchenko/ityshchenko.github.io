@@ -63,19 +63,16 @@ author:
       title: 'Middle Web Developer'
       time: 'Aug 2016 - current'
       projects:
-        - "Train, manage and provide guidance to junior software
-development staff"
+        - "Train, manage and provide guidance to junior software development staff"
         - "Maintain the existing applications"
         - "Cooperate with managers and clients"
-        - "Developed large G2G SPA for Ukrainian budget costs and
-earnings analysis and further planning"
+        - "Developed large G2G SPA for Ukrainian budget costs and earnings analysis and further planning"
         - "Developed internal RESTful API for the reporting system"
     -
       title: 'Junior Web Developer'
       time: 'Aug 2015 - Aug 2016'
       projects:
-        - "Wrote service for public data analysis for the Ukrainian
-budget system"
+        - "Wrote service for public data analysis for the Ukrainian budget system"
         - "Created a corporate blog based on DjangoCMS"
         - "Wrote middleware for Asterisk PBX and internal CRM"
         - "Developed a few services for publishing data of the state budget"
