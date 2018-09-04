@@ -57,6 +57,7 @@ author:
         - organizational and communication skills
         - experienced in bash, cURL and vim
         - experienced Docker user
+  
   experience:
     -
       name: 'LLC Center of Informational and Analysis Technologies'
