@@ -59,6 +59,13 @@ author:
         - experienced Docker user
   experience:
     -
+      name: "QALight"
+      title: "Python Coach"
+      time: "Oct 2018 - current"
+      projects:
+        - "Train and provide guidance on Python Course"
+        - "Mentoring students"
+    -
       name: "LLC Center of Informational and Analysis Technologies"
       title: "Middle Web Developer"
       time: "Aug 2016 - current"
