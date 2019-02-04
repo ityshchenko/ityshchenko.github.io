@@ -68,7 +68,7 @@ author:
     -
       name: "LLC Center of Informational and Analysis Technologies"
       title: "Middle Web Developer"
-      time: "Aug 2016 - current"
+      time: "Aug 2016 - Jan 2019"
       projects:
         - "Train, manage and provide guidance to junior software development staff"
         - "Maintain the existing applications"
