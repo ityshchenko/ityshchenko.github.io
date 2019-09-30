@@ -59,6 +59,10 @@ author:
         - experienced Docker user
   experience:
     -
+      name: "WePlay! Esports"
+      title: "Python Software Engineer"
+      time: "Feb 2019 - current"
+    -
       name: "QALight"
       title: "Python Coach"
       time: "Oct 2018 - current"
