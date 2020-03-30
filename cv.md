@@ -62,6 +62,11 @@ author:
       name: "WePlay! Esports"
       title: "Python Software Engineer"
       time: "Feb 2019 - current"
+      projects:
+        - "Separate shared service parts as common libraries"
+        - "Created integration tool for commercial competitive game  to provide in-game data to thirt-party services"
+        - "Extend existing API for logs management"
+        - "Developed application for collect statistics from commercial competitive games"
     -
       name: "QALight"
       title: "Python Coach"
