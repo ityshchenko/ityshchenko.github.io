@@ -101,7 +101,7 @@ author:
         - "Wrote an internal service for notifying clients via e-mail"
   education:
     -
-      years: '2015 - current'
+      years: '2015 - 2019'
       name: 'National Aviation University'
       spec: 'Information security management'
     -
