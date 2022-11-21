@@ -7,64 +7,92 @@ author:
     link: "/assets/img/profile-photo.jpg"
   position: "Back-end developer"
   email: "iv.tihon@gmail.com"
+  phone: +380974242428
   github:
-    link: ""
-    username: "TihonV"
+    username: "nohitmai"
   stackoverflow:
     link: "https://stackoverflow.com/users/5644331/ivan-tyshchenko"
     username: "Tihon"
   telegram:
     username: "TihonV"
-  phone:
-    link: "+380974242428"
-    formatted: "+380 (97) 42-42-428"
   skills:
     -
       name: "Languages"
       list:
         - "Python"
         - "Golang"
-        - "Javascript (ES5/ES6)"
-        - "HTML"
-        - "CSS"
+        - "Javascript (ES6)"
+        - "XMLPath/JSONPath"
+        - "SQL"
         - "YAML"
         - "Bash"
     -
       name: Backend Libraries & Frameworks
       list:
-        - "Django + DRF"
-        - "DjangoCMS"
-        - "flask"
-        - "falcon"
+        - "FastAPI"
+        - "Django"
+        - "Flask"
         - "aiohttp"
-        - "sqlalchemy"
-        - "peewee"
-        - "swagger"
+        - "Bottle"
+        - "SQLAlchemy"
+        - "AWS SAM"
     -
       name: Frontend Libraries & Frameworks
       list:
-        - "React.js"
+        - "React"
         - "Redux"
         - "Vue"
         - "d3js"
+        - "chart.js"
         - "bootstrap"
-        - "semantic-ui"
-        - "express"
     -
       name: Misc & soft-skills
       list:
         - Agile/Scrum methodology
         - organizational and communication skills
+        - AWS Cloud Developer Associate
         - experienced in bash, cURL and vim
-        - experienced Docker user
+        - experienced in CAD/3D-printing
+        - experienced K8S/Docker user
+        - experienced with PostgreSQL and familiar with MongoDB
   experience:
+    - name: "EPAM"
+      title: "Lead Software Engineer"
+      time: "Oct 2021 - Now"
+      projects:
+        - "Reduce compute capacity requirements for highload application"
+        - "Support OAuth2.0 (RFC 6749) implementation for 60M+ clients"
+        - "Split highload parts for highload application and move it to AWS Lambda"
+    - name: "WePlay! Esports"
+      title: "Python Sr. Developer"
+      time: "Aug 2021 - Sep 2021"
+      projects:
+       - "Reduce compute capacity requirements with serverless functions"
+    - name: "WePlay! Esports"
+      title: "Python Tech Lead"
+      time: "Dec 2020 - Aug 2021"
+      projects: 
+       - "Add multi-arch and multistage build scripts to allow secure build services"
+       - "Migrate python services from x86 to aarch64 CPU arch"
+       - "Migrate 60+ services from Mesos-based cloud to K8S"
+       - "Integrate transaction tracing to existing services"
+       - "Write library for integration python-based-services with Vault by hashicorp"
+       - "Setup CI tools for python libraries"
+       - "Write API-proxy for providing aggregates data via endpoints with strong API-consistency and compatibility"
+       - "Create internal tools to validate API-schema for all AsyncAPI exchanges"
     -
       name: "WePlay! Esports"
       title: "Python Software Engineer"
-      time: "Feb 2019 - current"
+      time: "Feb 2019 - Nov 2020"
       projects:
+        - "Write crawling bots for different e-sports aggregators"
+        - "Data analysis for professional CS:GO tournaments"
+        - "Work on services with dynamic load (from 0 to 40k rps)"
+        - "Refactor monolith as serverless functions and microservices"
+        - "Support JSON API-targeted serialization library"
+        - "Create a library to seamless integration with spring-boot-based-gateway to get zero-downtime"
         - "Separate shared service parts as common libraries"
-        - "Created integration tool for commercial competitive game  to provide in-game data to thirt-party services"
+        - "Created integration tool for a commercial competitive game to provide in-game data for third-party services"
         - "Extend existing API for logs management"
         - "Developed application for collect statistics from commercial competitive games"
     -
@@ -82,8 +110,8 @@ author:
         - "Train, manage and provide guidance to junior software development staff"
         - "Maintain the existing applications"
         - "Cooperate with managers and clients"
-        - "Developed large G2G SPA for Ukrainian budget costs and earnings analysis and further planning"
-        - "Developed internal RESTful API for the reporting system"
+        - "Developed large monolith G2G SPA for Ukrainian budget costs and earnings analysis and further planning"
+        - "Create API for the reporting system"
     -
       title: "Junior Web Developer"
       time: "Aug 2015 - Aug 2016"
@@ -110,6 +138,6 @@ author:
       spec: 'Software development'
 ---
 
-Aspiring Back-end Developer who experienced in thinking outside the box.
+Expirienced Software Developer who thinking outside the box.
 Specialize in finding suitable solutions to fit customer needs.
 Strong in communications, both written and verbal.
