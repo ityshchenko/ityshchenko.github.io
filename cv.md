@@ -9,7 +9,7 @@ author:
   email: "iv.tihon@gmail.com"
   phone: +380974242428
   github:
-    username: "nohitmai"
+    username: "ityshchenko"
   stackoverflow:
     link: "https://stackoverflow.com/users/5644331/ivan-tyshchenko"
     username: "Tihon"
