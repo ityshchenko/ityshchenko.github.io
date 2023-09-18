@@ -20,14 +20,14 @@ author:
       name: "Languages"
       list:
         - "Python"
-        - "Golang"
         - "Javascript (ES6)"
+        - "Golang"
         - "XMLPath/JSONPath"
         - "SQL"
         - "YAML"
         - "Bash"
     -
-      name: Backend Libraries & Frameworks
+      name: Backend Libraries & Tools
       list:
         - "FastAPI"
         - "Django"
@@ -35,7 +35,9 @@ author:
         - "aiohttp"
         - "Bottle"
         - "SQLAlchemy"
-        - "AWS SAM"
+        - "lxml"
+        - "Microsoft Playwright"
+        - ""
     -
       name: Frontend Libraries & Frameworks
       list:
@@ -51,6 +53,7 @@ author:
         - Agile/Scrum methodology
         - organizational and communication skills
         - AWS Cloud Developer Associate
+        - experienced in Azure Cloud
         - experienced in bash, cURL and vim
         - experienced in CAD/3D-printing
         - experienced K8S/Docker user
@@ -60,9 +63,14 @@ author:
       title: "Lead Software Engineer"
       time: "Oct 2021 - Now"
       projects:
-        - "Reduce compute capacity requirements for highload application"
-        - "Support OAuth2.0 (RFC 6749) implementation for 60M+ clients"
-        - "Split highload parts for highload application and move it to AWS Lambda"
+        - "Maintain the high-load application that implements OAuth2.0 (RFC 6749)"
+        - "Split high-load monolith parts and move them to AWS Lambda"
+        - "Improve observability of applications with AWS X-Ray & Athena"
+        - "Conducted code reviews and provided mentorship to junior engineers, improving code quality and best practices adherence"
+        - "Implemented CI/CD pipelines using Jenkins, Localstack, and Docker, which allowed to improve test coverage on cloud-related application parts"
+        - "Resolved critical production issues promptly, ensuring minimal downtime and improving customer satisfaction"
+        - "Collaborated with the DevOps team to set up monitoring and alerting systems, ensuring high availability and reliability"
+        - "Resource management improvement for applications to reduce GIL-locks"
     - name: "WePlay! Esports"
       title: "Python Sr. Developer"
       time: "Aug 2021 - Sep 2021"
@@ -75,11 +83,13 @@ author:
        - "Add multi-arch and multistage build scripts to allow secure build services"
        - "Migrate python services from x86 to aarch64 CPU arch"
        - "Migrate 60+ services from Mesos-based cloud to K8S"
-       - "Integrate transaction tracing to existing services"
-       - "Write library for integration python-based-services with Vault by hashicorp"
+       - "Integrate Sentry to improve service-mesh observability"
+       - "Integrate python-based-services with Vault by hashicorp"
        - "Setup CI tools for python libraries"
-       - "Write API-proxy for providing aggregates data via endpoints with strong API-consistency and compatibility"
-       - "Create internal tools to validate API-schema for all AsyncAPI exchanges"
+       - "Maintain API-proxy which provides aggregated data endpoints"
+       - "Implement S2S-asynchronous messaging via RabbitMQ"
+       - "Create CI/CD-tool to validate API-schema for all AsyncAPI exchanges"
+       - "Create high-load API for Twitch Extension"
     -
       name: "WePlay! Esports"
       title: "Python Software Engineer"
@@ -88,13 +98,13 @@ author:
         - "Write crawling bots for different e-sports aggregators"
         - "Data analysis for professional CS:GO tournaments"
         - "Work on services with dynamic load (from 0 to 40k rps)"
-        - "Refactor monolith as serverless functions and microservices"
-        - "Support JSON API-targeted serialization library"
+        - "Split monolith application to serverless functions or microservices"
+        - "Mantain JSON-API serialization library"
         - "Create a library to seamless integration with spring-boot-based-gateway to get zero-downtime"
         - "Separate shared service parts as common libraries"
-        - "Created integration tool for a commercial competitive game to provide in-game data for third-party services"
-        - "Extend existing API for logs management"
-        - "Developed application for collect statistics from commercial competitive games"
+        - "Integration tool for a commercial competitive game to provide in-game data for third-party services"
+        - "API for game logs management"
+        - "The application for collect statistics from commercial competitive games"
     -
       name: "QALight"
       title: "Python Coach"
@@ -110,16 +120,16 @@ author:
         - "Train, manage and provide guidance to junior software development staff"
         - "Maintain the existing applications"
         - "Cooperate with managers and clients"
-        - "Developed large monolith G2G SPA for Ukrainian budget costs and earnings analysis and further planning"
+        - "G2G Application for Ukrainian budget costs and earnings analysis and further planning"
         - "Create API for the reporting system"
     -
       title: "Junior Web Developer"
       time: "Aug 2015 - Aug 2016"
       projects:
-        - "Wrote service for public data analysis for the Ukrainian budget system"
-        - "Created a corporate blog based on DjangoCMS"
-        - "Wrote middleware for Asterisk PBX and internal CRM"
-        - "Developed a few services for publishing data of the state budget"
+        - "Wrote public data analysis tool for the Ukrainian budget system"
+        - "Mantain corporate DjangoCMS-based blog"
+        - "Integrate Asterisk PBX with internal CRM"
+        - "Few tools for publishing data of the state budget"
     -
       name: 'LLC Viva Top Group'
       title: 'System Administrator'
@@ -138,6 +148,4 @@ author:
       spec: 'Software development'
 ---
 
-Expirienced Software Developer who thinking outside the box.
-Specialize in finding suitable solutions to fit customer needs.
-Strong in communications, both written and verbal.
+Highly skilled and motivated Backend Engineer with 5+ years of experience in designing, developing, and maintaining robust and scalable software solutions. Proficient in a wide range of programming languages and technologies, with a proven track record of delivering high-quality code on time. Seeking a challenging role in a dynamic organization to contribute my expertise and drive innovation in the field of backend development.
